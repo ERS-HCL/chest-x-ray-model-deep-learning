@@ -11,4 +11,4 @@ This model is then exported to a .tar.gz file which is also made available in th
 
 Phase 2
 
-The machine learning model is hosted on an AWS Lambda environment. This is available under AWS-Lambda-Starter.
+The machine learning model is hosted on an AWS Lambda environment. This is available under lambda-multilabel.
