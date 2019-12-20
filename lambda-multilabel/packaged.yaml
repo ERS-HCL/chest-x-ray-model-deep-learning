@@ -22,7 +22,7 @@ Resources:
   PyTorchFunction:
     Type: AWS::Serverless::Function
     Properties:
-      CodeUri: s3://landuse-model-bucket/5f00d6b1a83cf90b17d83b2c47996286
+      CodeUri: s3://landuse-model-bucket/1a20eeae90a6ecf4412d34e3eb59f2e0
       Handler: app.lambda_handler
       Runtime: python3.6
       MemorySize: 3008

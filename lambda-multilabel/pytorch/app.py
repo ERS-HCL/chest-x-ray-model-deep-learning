@@ -27,7 +27,7 @@ s3 = boto3.client('s3')
 classes = []
 image_sz = 128
 # Threshold values for inferencing Multilabel
-thresholds  = torch.tensor([.20,.20,.20,.20,.20,.20,.20,.20,.20,.20,.20,.20,.20,.20,.20])   # input
+thresholds  = torch.tensor([.10,.10,.10,.10,.10,.10,.10,.10,.10,.10,.10,.10,.10,.10,.10])   # input
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 
